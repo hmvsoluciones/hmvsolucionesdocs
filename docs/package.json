@@ -1,6 +1,7 @@
 {
   "name": "hmvsolucionesdocs",
   "path":"/docs/",
+  "base":"hmvsolucionesdocs",
   "version": "0.0.1",
   "description": "HMV Soluciones ",
   "main": "index.js",
