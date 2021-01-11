@@ -1,0 +1,19 @@
+{
+  "name": "hmvsolucionesdocs",
+  "version": "0.0.1",
+  "description": "HMV Soluciones ",
+  "main": "index.js",
+  "authors": {
+    "name": "HMV Soluciones",
+    "email": "hmv.soluciones@gmail.com"
+  },
+  "repository": "https://github.com/hmvsoluciones/hmvsolucionesdocs.git/hmvsolucionesdocs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
