@@ -4,9 +4,8 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
-  base: "/hmvsolucionesdocs/",
-  path: "/hmvsolucionesdocs/",
+  title: 'HMV Soluciones',
+  base: "/hmvsolucionesdocs/",  
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -36,16 +35,21 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Procesos',
+        ariaLabel: 'Procesos',
+        items: [
+          { text: 'Ventas', link: '/guide/' },
+          { text: 'Software a la Medida', link: '/guide/' },
+          { text: "PWA's", link: '/guide/' },
+        ]
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Motivaciones',
+        link: '/motivaciones/',
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Blog',
+        link: '/blog/'
       }
     ],
     sidebar: {
@@ -56,6 +60,28 @@ module.exports = {
           children: [
             '',
             'using-vue',
+          ]
+        }
+      ],
+      '/motivaciones/': [
+        {
+          title: 'Motivaciones',
+          collapsable: true,
+          children: [
+            '',
+            'jack-ma',
+            'elon-musk',
+          ]
+        }
+      ],
+      '/blog/': [
+        {
+          title: 'Blog',
+          collapsable: false,
+          children: [
+            '',
+            'article1',
+            'article2',
           ]
         }
       ],

@@ -2,8 +2,8 @@
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: HMV Soluciones 
-actionText: Quick Start →
-actionLink: /guide/
+actionText: Saber Más →
+actionLink: http://www.hmvsoluciones.com
 features:
 - title: Feature 1 Title
   details: Feature 1 Description
