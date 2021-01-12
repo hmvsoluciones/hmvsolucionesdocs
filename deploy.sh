@@ -14,12 +14,12 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'deploy gh-pages'
+git commit -m "deploy gh-pages"
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git push -f https://github.com/hmvsoluciones/hmvsolucionesdocs.git master:gh-pages master:gh-pages
+git push -f https://github.com/hmvsoluciones/hmvsolucionesdocs.git master:gh-pages
 
 cd -

@@ -1,8 +1,24 @@
-# hmvsolucionesdocs
+### HMV Soluciones Doc
 
-/docs/ web site
+* Vue Press](https://vuepress.vuejs.org/) - reference
 
+### Installation
+In docs folder go to /docs
 
-#deploy gh page
+to start on dev
+```sh
+$ cd /docs/
+$ npm install
+$ npm run dev
+```
 
-deploy.sh file
+to build for production
+```sh
+$ cd /docs/
+$ npm run build
+```
+
+to deploy github page
+```sh
+/deploy.sh
+```
